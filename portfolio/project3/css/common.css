@@ -1,0 +1,181 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+
+/* common */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.wrap {
+    width: 1920px;
+    margin: 0 auto;
+    background-color: #282828;
+}
+
+.space {
+    clear: both;
+}
+
+
+
+/* header */
+.header {
+    height: 112px;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.menu {
+    height: 20px;
+    float: right;
+    list-style: none;
+    padding: 41px 0;
+    margin-right: 70px;
+}
+
+.menu li {
+    margin-left: 35px;
+    float: left;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* contents */
+.mainimg {
+    width: 1920px;
+    height: 450px;
+    background-image: url(../img/mainimg.png);
+}
+
+.contents h3 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.contents p {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+.contents div div img {
+    padding: 35px 0;
+}
+
+.box1 {
+    height: 712px;
+}
+
+.box2 {
+    width: 1920px;
+    height: 523px;
+    background-color: #369574;
+}
+
+.box2 div {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.box3_left {
+    width: 50%;
+    float: left;
+    height: 639px;
+    background-color: #17694c;
+}
+
+.box3_left div {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.box3_right {
+    width: 50%;
+    height: 639px;
+    float: right;
+    background-color: #227a5b;
+}
+
+.box3_right div {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.box4_left {
+    width: 50%;
+    height: 639px;
+    float: left;
+    background-color: #13523c
+}
+
+.box4_left div {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.box4_right {
+    width: 50%;
+    height: 639px;
+    float: right;
+    background-color: #145941
+}
+
+.box4_right div {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+
+/* footer */
+.footer {
+    padding-top: 20px;
+    height: 171px;
+    background-color: #282828;
+}
+
+.copyright {
+    text-align: center;
+    padding: 20px 0;
+    color: darkgray;
+}
+
+.sns {
+    width: 180px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.sns li {
+    width: 50px;
+    float: left;
+    margin: 0 5px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
