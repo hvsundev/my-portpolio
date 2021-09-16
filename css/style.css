@@ -410,6 +410,10 @@ a:focus {
         width: 100%;
         text-align: center;
     }
+    
+    .hero .hero-text {
+        padding: 0;
+    }
 
     .hero .hero-text p {
         font-size: 18px;
@@ -427,6 +431,14 @@ a:focus {
     .hero .hero-btn .btn {
         padding: 10px 15px;
         letter-spacing: 1px;
+    }
+    
+    .hero .hero-text .intro_contents {
+        font-size: 22px;
+    }
+    
+    .hero {
+        height: 360px;
     }
 }
 
@@ -447,6 +459,15 @@ a:focus {
     .hero .hero-btn .btn {
         padding: 8px 10px;
         letter-spacing: 0;
+    }
+    
+    .hero .hero-text .intro_contents {
+        font-size: 18px;
+    }
+    
+    .hero {
+        margin: 0;
+        height: 340px;
     }
 }
 
@@ -1467,6 +1488,10 @@ a:focus {
     .contact .contact-form {
         padding: 90px 0;
     }
+    
+    .intro_contents {
+        font-size: 22px;
+    }
 }
 
 
@@ -1685,5 +1710,31 @@ a:focus {
         font-size: 16px;
         line-height: 16px;
         padding: 0 5px;
+    }
+    
+    .hero .hero-text .intro_contents {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 767.98px) {  
+    .blog .blog-item a.btn { 
+        width: 35%;
+    }
+    
+}
+
+@media (max-width: 414.98px) {
+    .blog .blog-item a.btn { 
+        width: 50%;
+    }
+    
+    .blog-text .logo_img img {
+        top: -50px;
+        height: 90px;
+    }
+    
+    .hero {
+        height: 330px;
     }
 }
