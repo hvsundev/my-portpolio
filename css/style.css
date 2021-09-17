@@ -614,7 +614,7 @@ a:focus {
 /*******************************/
 .experience {
     position: relative;
-    padding: 45px 0 15px 0;
+    padding: 90px 0 15px 0;
 }
 
 .experience .timeline {
@@ -804,7 +804,7 @@ a:focus {
 .service {
     position: relative;
     width: 100%;
-    padding: 45px 0 15px 0;
+    padding: 90px 0 15px 0;
     background-color: #EF233C;
 }
 
@@ -917,7 +917,7 @@ a:focus {
 /*******************************/
 .portfolio {
     position: relative;
-    padding: 45px 0 15px 0;
+    padding: 90px 0 15px 0;
 }
 
 .portfolio #portfolio-filter {
@@ -1717,11 +1717,25 @@ a:focus {
     }
 }
 
+@media (max-width: 1024.98px) {
+    .blog-text .logo_img img {
+        height: 90px;
+        top: -55px;
+    }
+    
+     .hero {
+        height: 510px;
+    }
+    
+    .blog .blog-item a.btn {
+        width: 35%;
+    }
+}
+
 @media (max-width: 767.98px) {  
     .blog .blog-item a.btn { 
         width: 35%;
     }
-    
 }
 
 @media (max-width: 414.98px) {
