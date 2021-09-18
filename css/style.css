@@ -741,6 +741,10 @@ a:focus {
     color: #484848;
 }
 
+.experience .timeline .timeline-text .bold_contents {
+    font-weight: 500;
+}
+
 .experience .timeline .timeline-text .exp_contents::before {
     content: '';
     display: block;
@@ -1163,7 +1167,6 @@ a:focus {
     width: 20px;
     height: 19px;
     background-image: url(../img/icon_link.png);
-    margin-right: 8px;
 }
 
 .blog .blog-meta i {
