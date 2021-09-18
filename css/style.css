@@ -883,6 +883,7 @@ a:focus {
 }
 
 .service .service-item {
+    float: left;
     height: auto;
     width: 100%;
     text-align: center;
