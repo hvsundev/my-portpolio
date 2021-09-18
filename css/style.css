@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
-@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates); 
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates);
 
 
 /*******************************/
@@ -303,7 +303,7 @@ a:focus {
     width: 40px;
     background-color: #fff;
     margin: 40px auto 25px;
-    
+
 }
 
 .hero .hero-text .intro_contents {
@@ -410,7 +410,7 @@ a:focus {
         width: 100%;
         text-align: center;
     }
-    
+
     .hero .hero-text {
         padding: 0;
     }
@@ -432,11 +432,11 @@ a:focus {
         padding: 10px 15px;
         letter-spacing: 1px;
     }
-    
+
     .hero .hero-text .intro_contents {
         font-size: 22px;
     }
-    
+
     .hero {
         height: 360px;
     }
@@ -460,11 +460,11 @@ a:focus {
         padding: 8px 10px;
         letter-spacing: 0;
     }
-    
+
     .hero .hero-text .intro_contents {
         font-size: 18px;
     }
-    
+
     .hero {
         margin: 0;
         height: 340px;
@@ -813,6 +813,9 @@ a:focus {
     display: inline-block;
     column-width: 350px;
     column-gap: 30px;
+    width: 100%;
+    margin: 0;
+    ;
 }
 
 .service .row div {
@@ -880,10 +883,13 @@ a:focus {
 }
 
 .service .service-item {
-    float: left;
     height: auto;
     width: 100%;
     text-align: center;
+}
+
+.service .service-item p {
+    width: 100%;
 }
 
 .service .service-text {
@@ -906,13 +912,9 @@ a:focus {
 }
 
 @media (max-width: 575.98px) {
-    .service .service-text h3 {
-        font-size: 16px;
-        margin-bottom: 5px;
-    }
-
     .service .service-text p {
-        font-size: 14px;
+        width: 80%;
+        margin: 0 auto;
     }
 }
 
@@ -1297,7 +1299,7 @@ a:focus {
         line-height: 16px;
         padding: 0 5px;
     }
-    
+
     .hero .hero-text .intro_contents {
         font-size: 18px;
     }
@@ -1308,33 +1310,37 @@ a:focus {
         height: 90px;
         top: -55px;
     }
-    
-     .hero {
+
+    .hero {
         height: 510px;
     }
-    
+
     .blog .blog-item a.btn {
         width: 35%;
     }
 }
 
-@media (max-width: 767.98px) {  
-    .blog .blog-item a.btn { 
+@media (max-width: 767.98px) {
+    .blog .blog-item a.btn {
         width: 35%;
     }
 }
 
 @media (max-width: 414.98px) {
-    .blog .blog-item a.btn { 
+    .blog .blog-item a.btn {
         width: 50%;
     }
-    
+
     .blog-text .logo_img img {
         top: -50px;
         height: 90px;
     }
-    
+
     .hero {
         height: 330px;
+    }
+
+    .service .service-item img {
+        width: 100%;
     }
 }
